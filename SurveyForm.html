@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <title>Coffee Survey</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<h1 id="title">
+  Coffee! Tell us how much you love it!
+</h1>
+<p id="description">
+  Coffee is a commonly consumed drink for people who don't sleep enough.
+</p>
+<form id="survey-form">
+  <div id="personal-details">
+    <label for="name" id="name-label">
+      Enter Name
+      <input id="name" type="text" placeholder="John Wick" required>
+    </label>
+    <label for="email" id="email-label">
+      Enter Email
+      <input id="email" type="email" placeholder="john.wick@gmail.com" required>
+    </label>
+    <label for="number" id="number-label">
+      Enter your Age
+      <input id="number" type="number" min=1 max=100 placeholder=25 required>
+    </label>
+  </div>
+  <br>
+  <div id="coffee-questions">
+    <label for="dropdown">1. Select your Favourite Coffee</label>
+    <select name="coffeetype" id="dropdown">
+      <option value="americano">Americano</option>
+      <option value="cappucino">Cappucino</option>
+      <option value="latte">Latte</option>
+      <option value="tea">Tea</option>
+    </select>
+    <p>2. How many cups of coffee do you drink in a day?</p>
+    <input id="zero_cups" type="radio" name="how_many_cups" value="0">
+    <label for="zero_cups">0</label>
+    <input id="onetwo_cups" type="radio" name="how_many_cups" value="1 to 2">
+    <label for="onetwo_cups">1 to 2</label>
+    <input id="three_cups" type="radio" name="how_many_cups" value="3 or more">
+    <label for="three_cups">3 or more</label>
+    <p>3. And how do you make your coffee?</p>
+    <input id="french_press" type="checkbox" name="how_to_make" value="French Press">
+    <label for="french_press">French Press</label>
+    <input id="drip" type="checkbox" name="how_to_make" value="Drip Machine">
+    <label for="drip">Drip Machine</label>
+    <input id="buy" type="checkbox" name="how_to_make" value="I buy it!">
+    <label for="buy">I buy it!</label>
+  </div>
+  <br>
+  <label for="why-coffee-textbox"><span id="why-coffee-text">Tell us why you love coffee!</span></label>
+  <br>
+  <textarea id="why-coffee-textbox" name"why_coffee"></textarea>
+  <br>
+  <input id="submit" type="submit" value="Submit">
+</form>
+<h4>
+  Published in 2022
+</h4>

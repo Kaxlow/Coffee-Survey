@@ -1,0 +1,37 @@
+/*Import from Google Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+h1 {
+    color: maroon;
+  }
+#title {
+  font-family: "Josefin Sans";
+}
+#survey-form {
+  background-color: hsl(39, 40%, 65%);
+  border-color: hsl(39, 40%, 25%);
+  border-width: 3px;
+  border-style: solid;
+}
+#personal-details {
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana;
+  line-height: 40px;
+}
+#coffee-questions {
+  font-family: Verdana;
+  font-size: 12px;
+}
+#why-coffee-text {
+  font-weight: bold;
+  font-size: 30px;
+}
+#why-coffee-textbox{
+  margin-top: 10px;
+  width: 400px;
+  height: 100px;
+}
+h4 { 
+  color: green;
+  font-style: italic;
+}
